@@ -1,37 +1,40 @@
 .skills-section {
-    text-align: center;
-    background-color: black;
-    color: white;
-  }
-  
-  .skills-title {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
-  
-  .skills-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem; /* Adjust the gap between skill items */
-  }
-  
-  .skill-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-  }
-  
-  .skill-item.visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  
-  .skill-icon {
-    width: 50px; /* Adjust icon size */
-    height: 50px;
-    margin-bottom: 0.5rem;
-  }
-  
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 2rem 0;
+}
+
+.skills-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Responsive grid */
+  gap: 2rem; /* Adjust the gap between skill items */
+  justify-content: center;
+  align-items: center;
+  max-width: 800px; /* Set a max width for centering */
+  margin: auto;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.skill-item.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.skill-icon {
+  width: 60px; /* Slightly larger for better visibility */
+  height: 60px;
+  margin-bottom: 0.5rem;
+}

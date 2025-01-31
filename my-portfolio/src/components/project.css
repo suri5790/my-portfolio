@@ -1,0 +1,79 @@
+.projects-section {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 100px 20px;
+}
+
+.projects-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+/* Buttons for project selection */
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 30px;
+}
+
+.project-btn {
+  background-color: #1e1e1e;
+  color: white;
+  border: 2px solid white;
+  padding: 12px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 8px;
+}
+
+.project-btn.active {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.project-btn:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* Project Details Container */
+.project-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Animated Slideshow Image */
+.project-image {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+  transition: opacity 0.5s ease-in-out;
+}
+
+/* Project Links */
+.project-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-links a {
+  color: #00d9ff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.project-links a:hover {
+  color: #ffcc00;
+}

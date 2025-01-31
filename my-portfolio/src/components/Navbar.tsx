@@ -5,6 +5,14 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
+const scrollToSection = (id: string) => {
+  const section = document.getElementById(id);
+  if (section) {
+    section.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
+
 function BasicExample() {
   return (
     <Navbar expand="lg" bg="black" variant="dark">
@@ -13,9 +21,9 @@ function BasicExample() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#skills">Skills</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
+          <Nav.Link onClick={() => scrollToSection("home-section")}>Home</Nav.Link>
+<Nav.Link onClick={() => scrollToSection("skills-section")}>Skills</Nav.Link>
+<Nav.Link onClick={() => scrollToSection("projects-section")}>Projects</Nav.Link>
           </Nav>
           <Nav>
             {/* LinkedIn Icon */}
