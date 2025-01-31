@@ -1,0 +1,51 @@
+/* global.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color:black; /* Light background color */
+  color: #333; /* Dark text */
+}
+
+h1, h2, h3 {
+  color: #343a40; /* Dark text for headings */
+}
+
+.container {
+  padding-top: 20px; /* Space from top */
+  padding-bottom:20px;
+
+}
+
+
+footer {
+  background-color:black;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* global.css */
+.nav-link {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-link svg {
+  margin-left: 10px;
+  color: #fff; /* Default icon color */
+  transition: all 0.3s ease; /* Smooth transition for the hover effect */
+  padding: 10px; /* Padding around the icon */
+  border-radius: 50%; /* Make the icon's background circular */
+}
+
+.nav-link:hover svg {
+  color: #fff; /* Keep the icon color white */
+  background-color: #00aaff; /* Add background color on hover */
+  box-shadow: 0 0 10px 3px rgba(0, 170, 255, 0.8); /* Add glowing effect */
+  transform: scale(1.1); /* Slightly scale up the icon */
+}
+/* global.css */
+html {
+  scroll-behavior: smooth;
+}
+
