@@ -22,7 +22,7 @@ const projects = [
     id: "project2",
     title: "PayTM",
     images: [paytm1,paytm2,paytm3], // Multiple images for slideshow
-    description: "A PayTM-inspired payment gateway application with authentication & transactions.",
+    description: "A PayTM-inspired payment gateway application with authentication & transactions using NextJs",
     github: "https://github.com/psp2535/paytm-project.git",
     live: "https://project-two-live.com"
   }
