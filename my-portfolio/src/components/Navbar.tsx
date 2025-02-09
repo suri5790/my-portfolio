@@ -27,17 +27,17 @@ function BasicExample() {
           </Nav>
           <Nav>
             {/* LinkedIn Icon */}
-            <Nav.Link href="https://www.linkedin.com/in/your-profile" target="_blank">
+            <Nav.Link href="https://www.linkedin.com/in/surendrachakali" target="_blank">
               <FontAwesomeIcon icon={faLinkedin} size="2xl" />
             </Nav.Link>
 
             {/* GitHub Icon */}
-            <Nav.Link href="https://github.com/your-username" target="_blank">
+            <Nav.Link href="https://github.com/suri5790" target="_blank">
               <FontAwesomeIcon icon={faGithub} size="2xl" />
             </Nav.Link>
 
             {/* Email Icon */}
-            <Nav.Link href="mailto:your-email@example.com">
+            <Nav.Link href="mailto:surendrasudhakar678@gmail.com">
             <FontAwesomeIcon icon={faEnvelope} size="2xl"/>
             </Nav.Link>
           </Nav>
