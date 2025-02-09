@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import "./Project.css";
+import "./project.css";
 import blog1 from "../assets/blog1.jpg";
 import blog2 from "../assets/blog2.jpg";
 // import blog3 from "../assets/blog3.jpg";
