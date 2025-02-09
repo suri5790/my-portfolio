@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import "./Home.css";
 import background from "../assets/background.mp4";
-import { FaArrowDown } from "react-icons/fa"; // Import an icon
+// import { FaArrowDown } from "react-icons/fa"; // Import an icon
 
 export const Home = () => {
   // Titles that will change dynamically
@@ -59,7 +59,7 @@ export const Home = () => {
       </div>
 
       <div className="scroll-down-btn" onClick={scrollToSkills}>
-  <FaArrowDown className="scroll-icon" />
+  {/* <FaArrowDown className="scroll-icon" /> */}
 </div>
 
     </div>
